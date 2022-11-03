@@ -1,0 +1,52 @@
+@import 'variables';
+@import 'buttons';
+
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $main-font-color;
+    font-size: 18px;
+}
+body{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+// NAV STYLES
+nav{
+    margin-top: -3vh;
+     a{
+        color: $main-font-color;
+        font-weight: 300;
+        margin: 0.5vw;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: $purple-font-color;
+    }
+    .navbar-nav > .nav-item > .active > a{
+        color: $purple-font-color;
+    }
+}
+// HEADER STYLES
+.header{
+    margin-top: -10vh;
+    padding: 3vw;
+    font-weight: 200;
+    margin-top: 15vh;
+    .h1{
+        color: $purple-font-color;
+        font-weight: 600;
+        font-size: $big-font-size;
+    }
+    p{
+        padding:  5px 0px;
+    }
+    .header-text{
+        text-align: left;
+    }
+    img{
+        width: 95%;
+        height: auto;
+        margin-top: -22vh;
+    }
+}
