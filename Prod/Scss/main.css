@@ -38,6 +38,12 @@
 body {
   max-width: 2000px;
   margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: 95%;
+  height: auto;
 }
 
 nav {
@@ -55,25 +61,51 @@ nav .navbar-nav > .nav-item > .active > a {
   color: #623291;
 }
 
+.h1 {
+  color: #623291;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+p {
+  padding: 5px 0px;
+}
+
 .header {
   margin-top: -10vh;
   padding: 3vw;
   font-weight: 200;
   margin-top: 15vh;
 }
-.header .h1 {
-  color: #623291;
-  font-weight: 600;
-  font-size: 3.5rem;
-}
-.header p {
-  padding: 5px 0px;
-}
 .header .header-text {
   text-align: left;
 }
 .header img {
-  width: 95%;
-  height: auto;
   margin-top: -22vh;
+}
+
+.realizations {
+  margin-top: 10vh;
+}
+.realizations div:first-child {
+  margin-top: 160px;
+}
+.realizations p:first-child {
+  color: #623291;
+}
+.realizations p {
+  margin-left: -30px;
+}
+
+.work {
+  margin-top: 10vh;
+  padding-top: 5vh;
+  background-color: #623291;
+}
+.work p {
+  color: white;
+  font-weight: 200;
+}
+.work .h1, .work .h5 {
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

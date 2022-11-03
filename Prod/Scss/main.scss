@@ -11,6 +11,11 @@
 body{
     max-width: 2000px;
     margin: 0 auto;
+    padding: 0;
+}
+img{
+    width: 95%;
+    height: auto;
 }
 // NAV STYLES
 nav{
@@ -27,26 +32,54 @@ nav{
         color: $purple-font-color;
     }
 }
+.h1{
+    color: $purple-font-color;
+    font-weight: 600;
+    font-size: $big-font-size;
+}
+p{
+    padding:  5px 0px;
+}
 // HEADER STYLES
 .header{
+    
     margin-top: -10vh;
     padding: 3vw;
     font-weight: 200;
     margin-top: 15vh;
-    .h1{
-        color: $purple-font-color;
-        font-weight: 600;
-        font-size: $big-font-size;
-    }
-    p{
-        padding:  5px 0px;
-    }
+    
     .header-text{
         text-align: left;
     }
     img{
-        width: 95%;
-        height: auto;
         margin-top: -22vh;
+    }
+}
+// REALIZATIONS STYLES
+.realizations{
+    margin-top: 10vh;
+    div:first-child{
+        margin-top: 160px;
+    }
+    p:first-child{
+        color: $purple-font-color;
+    }
+    p{
+        margin-left: -30px;
+    }
+   
+}
+
+//WORK
+.work{
+    margin-top: 10vh;
+    padding-top: 5vh;
+    background-color: $purple-font-color;
+    p{
+        color: white;
+        font-weight: 200;
+    }
+    .h1, .h5{
+        font-weight: 600;
     }
 }
