@@ -108,5 +108,31 @@ p {
   font-weight: 600;
 }
 .work .steps {
-  margin-top: 30vh;
+  margin-top: 10vh;
+}
+.work img {
+  width: 80%;
+  margin-top: -10vh;
+}
+
+.contact .h5 {
+  color: #623291;
+  font-weight: 600;
+}
+.contact input, .contact textarea {
+  margin: 1vh;
+  padding: 1vh;
+  width: 90%;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid #623291;
+  border-radius: 30px;
+}
+.contact button {
+  width: 30%;
+  margin-right: 4.5vw;
+  margin-left: auto;
+  display: block;
+}
+.contact img {
+  margin-top: -5vh;
 }/*# sourceMappingURL=main.css.map */
