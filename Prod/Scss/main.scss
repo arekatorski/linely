@@ -12,6 +12,7 @@ body{
     max-width: 2000px;
     margin: 0 auto;
     padding: 0;
+    //min-width: 490px;
 }
 img{
     width: 95%;
@@ -70,16 +71,17 @@ p{
    
 }
 
-//WORK
+// WORK STYLES
 .work{
-    margin-top: 10vh;
-    padding-top: 5vh;
     background-color: $purple-font-color;
     p{
         color: white;
         font-weight: 200;
     }
-    .h1, .h5{
+    .h1, .h5, .h3{
         font-weight: 600;
+    }
+    .steps{
+        margin-top: 30vh;
     }
 }

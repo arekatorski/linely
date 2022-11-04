@@ -98,14 +98,15 @@ p {
 }
 
 .work {
-  margin-top: 10vh;
-  padding-top: 5vh;
   background-color: #623291;
 }
 .work p {
   color: white;
   font-weight: 200;
 }
-.work .h1, .work .h5 {
+.work .h1, .work .h5, .work .h3 {
   font-weight: 600;
+}
+.work .steps {
+  margin-top: 30vh;
 }/*# sourceMappingURL=main.css.map */
