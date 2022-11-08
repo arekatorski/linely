@@ -24,3 +24,17 @@
     color: $white-font;
     transition: 0.3s;
 }
+.third{
+    padding: 1vh 2vw;
+    background-color: white;
+    border: 2px solid white;
+    color: $purple-font-color;
+    border-radius: 30px;
+}
+.four{
+    padding: 1vh 2vw;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
