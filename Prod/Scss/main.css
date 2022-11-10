@@ -260,4 +260,36 @@ p {
 }
 .domain .table .details {
   margin-top: 6.5vh;
+}
+
+.about {
+  margin-top: 15vh;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10vh;
+}
+.about .slider {
+  display: flex;
+  justify-content: center;
+}
+.about .slider .h3 {
+  color: #623291;
+}
+.about .slider .person {
+  border: 1px solid #623291;
+  border-radius: 30px;
+}
+.about .socialMedia {
+  width: auto;
+}
+.about .social {
+  display: flex;
+  justify-content: center;
+}
+.about .bulb3 {
+  width: 30%;
+  z-index: -1;
+  left: -20vw;
+  margin-top: 5vh;
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */

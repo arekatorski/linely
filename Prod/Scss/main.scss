@@ -230,3 +230,37 @@ p{
      
     }
 }
+
+// ABOUT SITE STYLES
+
+.about{
+    margin-top: 15vh;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+    .slider{
+        display: flex;
+        justify-content: center;
+        .h3{
+            color: $purple-font-color;
+        }
+        .person{
+            border: 1px solid $purple-font-color;
+            border-radius: 30px;
+        }
+    }
+    .socialMedia{
+        width: auto;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    .bulb3{
+        width: 30%;
+        z-index: -1;
+        left: -20vw;
+        margin-top: 5vh;
+        position: absolute;
+    }
+}
