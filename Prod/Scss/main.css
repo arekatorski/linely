@@ -194,6 +194,9 @@ p {
   margin-top: 20vh;
 }
 
+.contact {
+  margin-top: 5vh;
+}
 .contact .h5 {
   color: #623291;
   font-weight: 600;
@@ -292,4 +295,29 @@ p {
   left: -20vw;
   margin-top: 5vh;
   position: absolute;
+}
+
+.contact-details {
+  text-align: left;
+}
+.contact-details .h5 {
+  color: #623291;
+}
+.contact-details .icon {
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 0.5vh;
+}
+.contact-details .details p {
+  font-weight: 200;
+}
+.contact-details .details .socialIcon {
+  width: auto;
+}
+.contact-details .detailsContent {
+  margin-top: 15vh;
+}
+.contact-details .SocialIcons {
+  margin-left: 1vw;
 }/*# sourceMappingURL=main.css.map */

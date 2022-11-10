@@ -157,6 +157,7 @@ p{
 // CONTACT STYLES
 
 .contact{
+    margin-top: 5vh;
     .h5{
         color: $purple-font-color;
         font-weight: 600;
@@ -264,3 +265,32 @@ p{
         position: absolute;
     }
 }
+
+// CONTACT SITE
+.contact-details{
+    text-align: left;
+    .h5{
+        color: $purple-font-color;
+    }
+    .icon{
+        width: auto;
+        object-fit: cover;
+        margin-top: 0.5vh;
+    }
+    .details{
+        p{
+            font-weight: 200;
+        }
+        .socialIcon{
+            width: auto;
+        }
+    }
+    .detailsContent{
+        margin-top: 15vh;
+    }
+    .SocialIcons{
+        margin-left: 1vw;
+    }
+
+}
+
