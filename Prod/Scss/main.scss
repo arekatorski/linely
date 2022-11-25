@@ -294,3 +294,37 @@ p{
 
 }
 
+// LOGGED COTACT FORM
+.contactForm{
+    text-align: center;
+    p{
+        margin-left:2.5vw;
+    }
+    input, textarea{
+        width: 90%;
+        padding: 20px;
+        border: 1px solid $purple-font-color;
+        background-color: $light-purple-color;
+        border-radius: 30px;
+    }
+    div{
+        margin-top: 2vh;
+    }
+    button{
+       float: right;
+       margin-right: 3vw;
+       padding-left: 50px;
+       padding-right: 50px;
+    }
+    a{
+        color: $main-font-color;
+    }
+    .bulb2{
+        width: 40%;
+        z-index: -1;
+        margin-top: -10vh;
+        right: -0vw;
+        position: absolute;
+    }
+}
+

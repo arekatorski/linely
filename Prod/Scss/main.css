@@ -320,4 +320,37 @@ p {
 }
 .contact-details .SocialIcons {
   margin-left: 1vw;
+}
+
+.contactForm {
+  text-align: center;
+}
+.contactForm p {
+  margin-left: 2.5vw;
+}
+.contactForm input, .contactForm textarea {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid #623291;
+  background-color: #fcf8ff;
+  border-radius: 30px;
+}
+.contactForm div {
+  margin-top: 2vh;
+}
+.contactForm button {
+  float: right;
+  margin-right: 3vw;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contactForm a {
+  color: #1a1a1a;
+}
+.contactForm .bulb2 {
+  width: 40%;
+  z-index: -1;
+  margin-top: -10vh;
+  right: 0vw;
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
